@@ -6,7 +6,7 @@ from PIL import Image
 from tensorflow.keras.models import load_model
  
 # ---------------- CONFIG ----------------
-MODEL_PATH = "plant_disease_prediction_model.h5"   # change to your actual .h5 filename
+MODEL_PATH = "plant_disease_model.tflite"   # change to your actual .h5 filename
 IMG_SIZE = (224, 224)
 DRIVE_FILE_ID = "1lFrLajWFVjkzBGkei3Q8pZIA-k_XJD-L"  # optional: paste Google Drive file ID to auto-download the model
  
